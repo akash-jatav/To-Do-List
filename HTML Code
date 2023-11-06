@@ -1,98 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
-        <link rel="stylesheet" href="style.css">
-    </head>
-
-    <body>
-        <section id="header">
-            <a href="#"><img src="img/logo.png" alt="logo"></a>
-    
-    
-            <div>
-                <ul id="navbar">
-                    <li> <a class="active" href="Index.html">Home</a></li>
-                    <li> <a href="shop.html">Shop</a></li>
-                    <li> <a href="Blog.html">Blog</a></li>
-                    <li> <a href="About.html">About</a></li>
-                    <li> <a href="Contact.html">Contact</a></li>
-                    <li> <a href="Cart.html"><i class="fa-regular fa-bag-shopping"></i></a></li>
-                </ul>
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="To-Do-Img\images\icon.png" alt="todo"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
             </div>
-            <div id="mobile">
-                <i id="bar" class="fas fa-outdent"></i>
-                <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
-            </div>
-        </section>
-        <section id="Hero">
-            <h4>Trade-in-offer</h4>
-            <h2>Super value deals </h2>
-            <h1>on all product</h1>
-            <p>Save more with copouns & up to 70% off!</p>
-            <button> shop now</button>
-        </section>
-        <section id="features" class="section-p1">
-            <div class="fe-box">
-                <img src="" alt="">
-                <h6>Free shipping</h6>
-            </div>
-            <div class="fe-box">       
-                <img src="" alt="">
-                <h6>Online order</h6>
-            </div>
-            
-            <div class="fe-box">
-                <img src="" alt="">
-                <h6>Save money</h6>
-            </div>
-            <div class="fe-box">
-                <img src="" alt="">
-                <h6>Promotions</h6>
-            </div>
-            <div class="fe-box">
-                <img src="" alt="">
-                <h6>Happyu sells</h6>
-            </div>
-            <div class="fe-box">
-                <img src="" alt="">
-                <h6>24/7 support</h6>
-            </div>
-            <div class="fe-box">
-                <img src="" alt="">
-                <h6>Free shipping</h6>
-            </div>
-        </section>
-        <section id="product1 " class="section-p1">
-            <h2>Featured products</h2>
-            <p>Summer collection New modern design</p>
-            <div class="pro-cointainer">
-                <div class="pro">
-                    <img src="" alt="">
-                    <div class="des">
-                        <span>adidas</span>
-                        <h5>cartoon astronout t-shirt</h5>
-                        <div calss="star">
-                            <i calss="fas fa-star"></i>
-                            <i calss="fas fa-star"></i>
-                            <i calss="fas fa-star"></i>
-                            <i calss="fas fa-star"></i>
-                            <i calss="fas fa-star"></i>
-                            </div>
-                            <h4>$78</h4>
-                    </div>
-                    <a href="#"><i class="fal fa-shopping-cart"></i></a>
-                </div>
-            </div>
-        </section>
-        <script src="script.js"></script>
-    </body>
-
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> --> 
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
